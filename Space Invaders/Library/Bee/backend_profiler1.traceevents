@@ -1,0 +1,542 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687596359054995, "dur":1342, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359056343, "dur":77, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687596359056453, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687596359056467, "dur":389, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687596359056891, "dur":588, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359057479, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141352, "dur":211, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141563, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141577, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141580, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141587, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141589, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141594, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141596, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141600, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141606, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141611, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141612, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141616, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141618, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141623, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141624, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141628, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141652, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359141688, "dur":1476, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687596359057294, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359057539, "dur":4484, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359062031, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687596359062038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359063421, "dur":406, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687596359063832, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687596359063888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359064412, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687596359067102, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687596359067567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359067706, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687596359069650, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687596359069743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359069748, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687596359071911, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687596359072516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359072520, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687596359073778, "dur":2072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359075869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359075880, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359079618, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359080269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359080278, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359083245, "dur":890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359084139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359084145, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359087407, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359087589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359087595, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359089043, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359089327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359089331, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359090951, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359091967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359091973, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359093301, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359093542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359093548, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359094981, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359095772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359095778, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359098314, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359099248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359099254, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359102277, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359103127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359103132, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359104717, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359104875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359104879, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359106400, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359106824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359106829, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359110171, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359110340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359110346, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359112785, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359112953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359112957, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359115562, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359115965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359115970, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359117920, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359118244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359118249, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359120663, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359121095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359121103, "dur":3799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687596359124945, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1687596359124984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359124989, "dur":5637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1687596359130676, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1687596359130725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687596359130729, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1687596359132718, "dur":8631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359057551, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359057552, "dur":4584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359062136, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1687596359062521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359065420, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1687596359067457, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1687596359068329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359068334, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1687596359069975, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1687596359070332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359070337, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1687596359072216, "dur":1494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359073712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359073750, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359075792, "dur":1973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359077768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359077775, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359080091, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359081086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359081089, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359083868, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359084720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359084725, "dur":3050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359087810, "dur":1036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359088849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359088854, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359090850, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359091318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359091323, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359092822, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359093423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359093429, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359094919, "dur":863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359095784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359095789, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359097452, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359098279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359098284, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359099139, "dur":1176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359100318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359100324, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359101284, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359102130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359102135, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359104126, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359104852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359104858, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359106429, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359107152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359107157, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359109262, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359109452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359109456, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359110705, "dur":2614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359113321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359113326, "dur":4604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359117963, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359119044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359119049, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359122084, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359122275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359122280, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687596359123401, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687596359123438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359123442, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687596359124561, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687596359124608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359124660, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687596359125940, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1687596359126073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359126077, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1687596359127766, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1687596359127804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359127809, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1687596359129917, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1687596359129955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687596359129959, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1687596359131629, "dur":9732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359057358, "dur":235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359057593, "dur":4472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359062066, "dur":1319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687596359063387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359065706, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687596359068615, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687596359068883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359069101, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687596359071575, "dur":6965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1687596359078544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359078550, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1687596359080246, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359081126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359081132, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359083598, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359084259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359084264, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359086951, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359087126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359087133, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359088874, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359089031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359089036, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359090739, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359091464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359091469, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359092378, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359092526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359092532, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359093645, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359093863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359093867, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359095604, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359096311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359096316, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359097980, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359098769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359098775, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359100061, "dur":1253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359101318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359101326, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359103963, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359104305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359104310, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359105334, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359105886, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359105894, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359108263, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359109014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359109019, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359110520, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359110673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359110678, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359112333, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359112713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359112720, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359115551, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359115703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359115710, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359118002, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359118233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359118239, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359120634, "dur":8615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359129252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687596359129259, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687596359132510, "dur":8836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359057449, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359057604, "dur":4424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359062031, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687596359062219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359067570, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687596359069008, "dur":795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687596359069807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359069813, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687596359072028, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687596359072137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359072359, "dur":7683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687596359080089, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359080786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359080791, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359083774, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359084374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359084379, "dur":3949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359088369, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359089109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359089114, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359090697, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359091577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359091608, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359093025, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359093737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359093742, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359095486, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359095656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359095662, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359097093, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359097767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359097794, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359103025, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359103798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359103804, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359105645, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359105872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359105876, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359108122, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359108984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359108991, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359110302, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359110433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359110438, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359112287, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359112457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359112464, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359114593, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359114783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359114789, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359117532, "dur":1829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359119385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359119391, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687596359123133, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687596359123190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359123195, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687596359124384, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687596359124465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359124470, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687596359126035, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687596359126071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359126076, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687596359129876, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1687596359129919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687596359129924, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1687596359131593, "dur":9762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359057634, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359057634, "dur":4457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359062092, "dur":1422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1687596359063540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359065767, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1687596359068566, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1687596359069329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359069412, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1687596359070896, "dur":25955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359096854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359096944, "dur":5410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359102395, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359102650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359102655, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359104367, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359105398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359105404, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359107175, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359107292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359107297, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359109101, "dur":1416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359110520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359110578, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359113163, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359113401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359113405, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359117038, "dur":2165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359119204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359119208, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687596359123705, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1687596359123744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359123748, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1687596359125044, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1687596359125166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359125170, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1687596359128654, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1687596359128696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687596359128701, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1687596359131103, "dur":10244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359057758, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359057758, "dur":4266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359062031, "dur":1273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1687596359063307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359065562, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1687596359067036, "dur":1077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1687596359068116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359068123, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1687596359069832, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1687596359070248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359070253, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1687596359072373, "dur":1105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359073481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359073675, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359075699, "dur":1691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359077394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359077400, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359079806, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359080389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359080394, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359083271, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359083781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359083808, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359086045, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359086627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359086636, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359088381, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359088532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359088536, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359089727, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359090698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359090705, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359091794, "dur":845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359092642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359092647, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359093824, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359094561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359094567, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359095709, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359095850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359095853, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359097661, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359097798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359097802, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359099385, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359099740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359099747, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359100761, "dur":991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359101754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359101760, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359104154, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359104339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359104343, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359105527, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359105724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359105729, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359107618, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359107995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359108001, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359109253, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359109423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359109428, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359110487, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359110648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359110652, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359112310, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359113008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359113033, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359116337, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359116551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359116557, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359118257, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359118933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359118939, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687596359122129, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1687596359122172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359122223, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1687596359123454, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687596359123489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359123493, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687596359124616, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1687596359124658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359124663, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1687596359128390, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1687596359128426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359128430, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1687596359130303, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687596359130342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687596359130346, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687596359132661, "dur":8699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359057924, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359057924, "dur":4173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359062098, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687596359062539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359065645, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687596359068162, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687596359068266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359068271, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687596359070258, "dur":2792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359073052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359073524, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359074880, "dur":1898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359076781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359076789, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359079562, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359080413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359080418, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359083277, "dur":866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359084146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359084151, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359087837, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359088204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359088209, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359089413, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359089633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359089638, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359090973, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359091123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359091128, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359092400, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359093125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359093130, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359094368, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359094579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359094583, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359095843, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359096129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359096134, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359098036, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359098877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359098882, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359100031, "dur":1420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359101454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359101459, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359102973, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359103801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359103806, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359104989, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359105387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359105392, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359107322, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359107446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359107450, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359108800, "dur":821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359109623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359109627, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359110677, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359110918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359110922, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359112474, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359113335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359113340, "dur":3154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359116529, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359117042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359117047, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359119573, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359119769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359119773, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359122095, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359122333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359122914, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687596359123751, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687596359123787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359123791, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687596359124965, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687596359125004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359125008, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687596359127371, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687596359127421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359127432, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1687596359129364, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1687596359129402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359129406, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1687596359131014, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687596359131162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687596359131167, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/Space Invaders_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1687596359132575, "dur":8779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687596359058132, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687596359058132, "dur":3934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687596359062067, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1687596359062391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687596359065736, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1687596359068398, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687596359068534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687596359069477, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687596359071346, "dur":59053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Calvin/Documents/Space Invader/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687596359130451, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687596359130456, "dur":10814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Calvin/Documents/Space Invader/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687596359141300, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1687596359141302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687596359144342, "dur":1543, "ph":"X", "name": "ProfilerWriteOutput" }
+,
